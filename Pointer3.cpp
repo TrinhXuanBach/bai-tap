@@ -12,8 +12,8 @@ int main()
     a[9] = '\0';
     cerr <<"a: " << "-" << a << "-" << endl;
     cerr <<"c: " << "-" << c << "-" << endl;
-    delete c;
-    cerr << "a after deleting c:" << "-" << a << "-" << endl; // lệnh in này chạy không mong muốn
+    delete c; // lệnh in này chạy không mong muốn
+    cerr << "a after deleting c:" << "-" << a << "-" << endl; 
       /* vì lệnh delete chỉ áp dụng lên con trỏ khởi tao theo kiểu bộ nhớ đông, vì vậy khi sử dụng lệnh này vs con
     trỏ khởi tạo thông thường lệnh này sẽ không có hiệu lực */
     cerr << c;
