@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1556025827 source:c:\users\yasuo\desktop\xxxxxx\bach\graphic.cpp
+	"Graphic.h"
+
+1555614908 c:\users\yasuo\desktop\xxxxxx\bach\graphic.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<vector>
+	<string>
+	<math.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+	<SDL_ttf.h>
+	<sstream>
+
+1555659746 source:c:\users\yasuo\desktop\xxxxxx\bach\main.cpp
+	"Graphic.h"
+	"Algorithm.h"
+
+1555660014 source:c:\users\yasuo\desktop\xxxxxx\bach\algorithm.cpp
+	"Algorithm.h"
+
+1555614437 c:\users\yasuo\desktop\xxxxxx\bach\algorithm.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<vector>
+	<string>
+	<math.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+	<SDL_ttf.h>
+	<sstream>
+
